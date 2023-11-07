@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="header">
+      <ion-title>PAGINA DE ESTUDIANTE</ion-title>
+      <ion-button routerLink="/home">
+        <ion-icon size="medium" name="arrow-undo-outline"></ion-icon>
+
+        Go to Home
+      </ion-button>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar>
+    <div class="user-profile">
+      <ion-title>ANTHONY LAMILLA VERA </ion-title>
+      <ion-button>
+        <ion-icon name="person"></ion-icon>
+      </ion-button>
+    </div>
+  </ion-toolbar>
+</ion-content>
+<style>
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+</style>
